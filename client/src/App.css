@@ -1,0 +1,295 @@
+* {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#welcome {
+  color: rgb(255, 255, 255);
+  margin: auto auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#welcomeHealth {
+  border: solid red 3px;
+}
+
+#welcomeStrength {
+  border: solid orange 3px;
+}
+
+#welcomeDefense {
+  border: solid green 3px;
+}
+
+#welcomeLuck {
+  border: solid yellow 3px;
+}
+
+#welcomeButton {
+  color: #FFF;
+  background-color: #000;
+  border: 3px solid #FFF;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 300px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+
+#welcomeButton:hover {
+  color: #000;
+  background-color: #FFF;
+}
+
+.textInput {
+  color: #FFF;
+  background-color: #000;
+  border: 3px solid #FFF;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.normalButton {
+  color: #FFF;
+  background-color: #000;
+  border: 3px solid #FFF;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #FFF;
+  opacity: 60%
+}
+
+#gameContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#characterSidebar {
+  width: 20%;
+  height: 95vh;
+  color: #FFF;
+  text-align: center;
+  padding-top: 20px;
+  border-right: solid #FFF;
+}
+
+#sidebarStats {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 50px;
+}
+
+#itemsSidebar {
+  width: 20%;
+  height: 95vh;
+  color: #FFF;
+  text-align: center;
+  padding-top: 20px;
+  border-left: solid #FFF;
+  margin: 0 auto 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gameArea {
+  color: #FFF;
+  margin: 0 0 0 auto;
+  width: 56%;
+  padding: 10px 1.85vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.adventureMain {
+  color: #FFF;
+  width: 54%;
+  height: 95vh;
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+  .chooseYourAvatarContainer {
+    height: 200px;
+    width: 200px;
+    color: #FFF;
+    border: 3px solid #FFF;
+    margin-top: 20px;
+  }
+
+  .chooseYourAvatarImg {
+    height: 95%;
+    width: 95%;
+    color: #FFF;
+    margin-top: 4%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* #chosenCharacter {
+  height: 200px;
+  width: 200px;
+  color: #FFF;
+  text-align: center;
+  border: 3px solid #FFF;
+  display: block;
+  margin: auto;
+} */
+
+
+/* #chooseAdventureButton {
+  color: #FFF;
+  background-color: #000;
+  border: 3px solid #FFF;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 300px;
+  margin-top: 10px;
+  cursor: pointer;
+} */
+
+/* .chooseYourAvatarLabel {
+  width: 200px;
+  color: #FFF;
+  float: left;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: large;
+} */
+
+/* .chooseYourItemContainer {
+  height: 80px;
+  width: 65px;
+  color: #FFF;
+  margin: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  border: 1px solid #FFF;
+} */
+
+/* .chooseYourItemImg {
+  height: 60px;
+  width: 60px;
+  color: #FFF;
+  margin: auto;
+  float: left;
+} */
+
+/* .chooseYourItemLabel {
+  color: #FFF;
+  margin: auto;
+  font-size: small;
+} */
+
+/* .adventureChoices {
+  height: 70%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .choiceButton:hover {
+  color: #000;
+  background-color: #FFF;
+} */
+
+/* #healthBar {
+  background-color: red;
+  height: 5px;
+  margin-bottom: 30px;
+} */
+
+/* #strengthBar {
+  background-color: orange;
+  height: 5px;
+  margin-bottom: 30px;
+} */
+
+/* #defenseBar {
+  background-color: green;
+  height: 5px;
+  margin-bottom: 30px;
+} */
+
+/* #luckBar {
+  background-color: yellow;
+  height: 5px;
+  margin-bottom: 30px;
+} */
+
+/* .itemList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+} */
+
+/* .itemImg {
+  max-width: 30px;
+  max-height: 30px;
+} */
+
+/* .itemInfoImg {
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+} */
+
+/* .sidebarInfo {
+  margin-left: 15%;
+  margin-right: 50px;
+} */
+
+/* .itemInfoArrow {
+  text-align: left;
+  font-size: 40px;
+  margin: 0 auto;
+  cursor: pointer;
+} */
+
+/* .itemInfoButton {
+  color: #FFF;
+  background-color: #000;
+  border: 2px solid #FFF;
+  padding: 10px 5px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 80px;
+  cursor: pointer;
+} */
+
+/* .itemInfoButton:hover {
+  color: #000;
+  background-color: #FFF;
+} */
+
