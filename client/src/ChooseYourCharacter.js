@@ -7,12 +7,15 @@ function ChooseYourCharacter({ handleOnChange, handleOnClick, onCharacterConfirm
   const warriorAvatar = "https://lh3.googleusercontent.com/h8gX2Igm9NEPpK_ecVD0s_W4KrTQgkbuHldBunWmhD3HJ2AQTCHb97ZoXmVORBDMMijaoWdu9-v1rCHvDcRZUH19zgpqJEE_68hht0ZId46mPivakIjemfcydBuTGdrkxilhRZigxwzLeFzssSc4rR-lkiLrOPoTRM90Kb3sazys7ZCjHMWi8uApIHPHSEBkVd8CYYG3oW0SPOFXwqX_WWyCCnGBzsvbHYNAfgMXF7xLN7z-1eJffdjtr1_yN1PhA46on3iTyLsjX4tgnKWqF_W8G_js0QTGnGOqLmYhwcSWGsiuRnl5uKNLg94AYCbq5VfsyO2L-OjJtU0ZNaSqepE69vy81ut9CK5cjcbtp19Ccq_s4i1PU36rwLjq1fhv4e7s_yL3WDF4l-sD6Kb7D9SsMhSp3pwntRJL0dwSTtgZXs7UEMQ47uE7A6rTIp9xE5yVKt6t3O1OFDJ_Oq1SRfEc6mWLj_EuFKUBa39D7aMwBhtUNtyX46vmWUmFA9L2235x3qx-8MtlNJyViUR66GgePehYLiQWoxtmS_yNkNMzsrKpEAC-xNxu5GIxh27aBm5rYxpIAsFJEklEwZ4UZlz-QWwNiuC94jtvQja-1INmWIab39GAPVi2RcPtPOWbMk2YxO2d4FbJU9GQ5xWaLoTA3A6nMrOJV0sdutGL6KHlKh59E5mKR3HUQbU1ElTAIWCZJkQ6IM8QDUdCXcdGCzoBTN_sOwWsBxsONAGtnJiDHOWDX8TTPiZBRTmQbKyyugmFH-_lLsRA7P1QhM_hQk9bnMR8VIUHSwhhMoSQqCB3sY7rAe7fwulsVa94H1l2QdZeUg=s180-no?authuser=0"
 
 // Need to create a "character_profession" resource
+
   const [avatars, setAvatars] = useState([])
 
   console.log({ avatars })
 
   useEffect(() => {
-    fetch('http://localhost:3000/avatars')
+    fetch('http://localhost:3000/avatars', {
+      mode: 'no-cors'
+    })
     .then((res) => res.json())
     .then((data) => setAvatars(data))
   },[])
