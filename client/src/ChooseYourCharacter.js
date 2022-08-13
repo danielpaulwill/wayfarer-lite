@@ -32,9 +32,17 @@ function ChooseYourCharacter({ handleOnChange, handleOnClick, onCharacterConfirm
         <br></br>
           <h3>CHOOSE YOUR PROFESSION</h3>
         <div id="professionContainer">
-          <input className="spacer" type="radio" value="Firefighter" name="profession" /> Firefighter
+          <label className="spacer">
+          <input className="spacer" type="radio" value="Firefighter" name="profession" />
+          FireFighter
+          </label>
           <input type="radio" value="Lawyer" name="profession" /> Lawyer
           <input type="radio" value="Lawyer" name="profession" /> Lawyer
+        </div>
+        <div id="professionContainer">
+          <button className="spacer" type="radio" value="Firefighter" name="profession">Firefighter</button>
+          <button className="spacer" type="radio" value="Lawyer" name="profession">Lawyer</button>
+          <button className="spacer" type="radio" value="Lawyer" name="profession">Lawyer</button>
         </div>
         <div className="center">
             <button className="normalButton" onClick={onCharacterConfirm}>Confirm your Character</button>
