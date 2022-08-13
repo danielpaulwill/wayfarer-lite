@@ -160,6 +160,29 @@
     margin-top: 4%;
   }
 
+  #professionContainer {
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .spacer {
+    border: solid 1px #FFF;
+    padding: 0 15px;
+    margin: 10px;
+  }
+
+  .spacerSelect {
+    border: solid 1px #FFF;
+    background-color: #FFF;
+    color: #000;
+    padding: 0 15px;
+    margin: 10px;
+  }
 
 
 
