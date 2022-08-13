@@ -176,7 +176,7 @@
     margin: 10px;
   }
 
-  .spacerSelect {
+  .spacer:checked {
     border: solid 1px #FFF;
     background-color: #FFF;
     color: #000;
