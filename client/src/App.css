@@ -203,10 +203,10 @@
 /* Hide the browser's default radio button */
 .checkmark input {
   position: absolute;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
-  height: 0;
-  width: 0;
+  height: 50px;
+  width: 50px;
 }
 
 /* Create a custom radio button */
@@ -217,15 +217,11 @@
   font-size: 16px;
   border: solid #FFF 1px;
   background-color: salmon;
-  /* -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; */
 }
 
 /* When the radio button is checked, add a blue background */
-.checkmark input:checked ~ .checkmark{
-  background-color: red;
+.checkmark input :checked {
+  background-color: blue;
 }
 
 /* label,

@@ -33,13 +33,13 @@ function ChooseYourCharacter({ handleOnChange, handleOnClick, onCharacterConfirm
         <h3>CHOOSE YOUR PROFESSION</h3>
         <div className="container">
           <label className="checkmark">ONE
-          <input type="radio" name="professionTest"></input>
+          <input type="radio" name="profession"></input>
           </label>
           <label className="checkmark">TWO
-          <input type="radio" name="professionTest"></input>
+          <input type="radio" name="profession"></input>
           </label>
           <label className="checkmark">THREE
-          <input type="radio" name="professionTest"></input>
+          <input type="radio" name="profession"></input>
           </label>
         </div>
         <div className="center">
