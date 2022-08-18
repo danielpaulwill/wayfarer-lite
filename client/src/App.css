@@ -185,6 +185,23 @@
     margin: 10px;
   }
 
+  #chooseYourLocation {
+    color: #FFF;
+    margin: 0 0 0 auto;
+    width: 56%;
+    padding: 10px 1.85vw;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #location {
+    width: 49%;
+    height: 90%;
+    background-color: red;
+    border: solid blue 2px;
+  }
+
 
 
 
