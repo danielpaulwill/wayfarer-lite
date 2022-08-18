@@ -1,11 +1,29 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 function Location({ islandMap }) {
+  const [location, setLocation] = useState("")
 
   useEffect(() => {
     console.log("booyeah")
   }, [])
 
+  const locations = [
+    {
+      name: "forest",
+      description: "x",
+      is_complete: false,
+      events: {
+        
+      }
+    },
+    {
+      name: "volcano",
+      description: "x",
+      is_complete: false
+    }
+  ]
+
+  console.log({locations})
 
   // create_table "events", force: :cascade do |t|
   //   t.integer "location_id"
@@ -15,15 +33,6 @@ function Location({ islandMap }) {
   //   t.datetime "updated_at", null: false
   //   t.string "description"
   // end
-
-  // create_table "locations", force: :cascade do |t|
-  //   t.string "name"
-  //   t.string "description"
-  //   t.boolean "is_complete"
-  //   t.datetime "created_at", null: false
-  //   t.datetime "updated_at", null: false
-  // end
-
 
 
  
