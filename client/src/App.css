@@ -65,6 +65,12 @@
   cursor: pointer;
 }
 
+.normalButton:hover {
+  background-color: #FFF;
+  color: #000;
+  border: 3px solid #bababa;
+}
+
 ::placeholder {
   color: #FFF;
   opacity: 60%
@@ -195,11 +201,42 @@
     flex-flow: row wrap;
   }
 
-  #location {
+  .locationMap {
     width: 49%;
     height: 90%;
-    background-color: red;
     border: solid blue 2px;
+  }
+
+  #forestButton {
+    color: #FFF;
+    height: 35px;
+    width: 35px;
+    border: 3px solid #FFF;
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+    left: 5px;
+    border-radius: 50%;
+  }
+  
+  #forestButton:hover {
+    background-color: red;
+  }
+
+  #volcanoButton {
+    color: #FFF;
+    height: 35px;
+    width: 35px;
+    border: 3px solid #FFF;
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+    left: 5px;
+    border-radius: 50%;
+  }
+
+  #volcanoButton:hover {
+    background-color: red;
   }
 
 

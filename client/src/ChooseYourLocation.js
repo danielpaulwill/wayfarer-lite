@@ -1,15 +1,17 @@
 import React from "react";
 
-function ChooseYourLocation({ onLocationSelect }) {
+function ChooseYourLocation({ onLocationSelect, forest, volcano }) {
 
  
   return (
     <div id="chooseYourLocation">
-      <div id="location">
-        <button className="normalButton" onClick={onLocationSelect}>LOCATIONS!!!</button>
+      <div className="locationMap">
+        <h3>Forest</h3>
+        <button id="forestButton" value="forest" onClick={onLocationSelect}></button>
       </div>
-      <div id="location">
-        <button className="normalButton" onClick={onLocationSelect}>LOCATIONS!!!</button>
+      <div className="locationMap">
+        <h3>Volcano</h3>
+        <button id="volcanoButton" value="volcano" onClick={onLocationSelect}></button>
       </div>
 
     </div>
