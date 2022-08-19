@@ -63,9 +63,7 @@ function App() {
   }
 
   const currentItems = [axe, potion, treasure, helmet]
-  const weapons = [axe]
-  const armor = [helmet]
-  const items = [potion, treasure]
+  
 
   function handleNameChange(e) {
     setCharacterName(e.target.value.toUpperCase())
